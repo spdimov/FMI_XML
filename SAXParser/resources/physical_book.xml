@@ -1,0 +1,88 @@
+<?xml version="1.0" standalone="no"?>
+<bookstore>
+	<book>
+		<id>001</id>
+		<title>1984</title>
+		<author nationality = "British">George Orwell</author>
+		<year>1949</year>
+		<genre>Political fiction</genre>		
+		<publisher>Secker &amp; Warburg</publisher>
+		<language>Bulgarian</language>
+		<price currency="EUR">7.29</price>
+		<rating>4.7</rating>		
+		<dimensions unit="cm">
+			<length>20</length>
+			<width>13</width>
+		</dimensions>
+		<pages>384</pages>
+		<covers>softback</covers>
+	</book>
+	<book>
+		<id>002</id>
+		<title>Harry Potter and the Philosopher's Stone</title>
+		<author nationality = "British">J. K. Rowling</author>
+		<year>1997</year>
+		<genre>Fantasy</genre>		
+		<publisher>Raincoast</publisher>
+		<language>English</language>
+		<price currency="EUR">5</price>
+		<rating>4.3</rating>		
+		<dimensions unit="cm">
+			<length>22</length>
+			<width>15</width>
+		</dimensions>
+		<pages>282</pages>
+		<covers>hardcover</covers>
+	</book>
+	<book>
+		<id>003</id>
+		<title>Harry Potter and the Chamber of Secrets</title>
+		<author nationality = "British">J. K. Rowling</author>
+		<year>1998</year>
+		<genre>Fantasy</genre>		
+		<publisher>Raincoast</publisher>
+		<language>English</language>
+		<price  currency="EUR">7.50</price>
+		<rating>4.2</rating>		
+		<dimensions unit="cm">
+			<length>22</length>
+			<width>15</width>
+		</dimensions>
+		<pages>304</pages>
+		<covers>hardcover</covers>
+	</book>
+	<book>
+		<id>004</id>
+		<title>The Old Man and the Sea</title>
+		<author nationality = "American">Ernest Hemingway</author>
+		<year>1952</year>
+		<genre>Short novel</genre>		
+		<publisher>Charles Scribner's Sons</publisher>
+		<language>English</language>
+		<price  currency="EUR">4.5</price>
+		<rating>4.2</rating>		
+		<dimensions unit="cm">
+			<length>20</length>
+			<width>12</width>
+		</dimensions>
+		<pages>77</pages>
+		<covers>softback</covers>
+	</book>
+	<book>
+		<id>005</id>
+		<title>Don Quijote de la Mancha</title>
+		<author nationality = "Spanish"> Miguel de Cervantes</author>
+		<year>1605</year>
+		<genre>Novel</genre>		
+		<publisher>	Francisco de Robles</publisher>
+		<language>Spanish</language>
+		<price  currency="EUR">5</price>
+		<rating>4.2</rating>		
+		<dimensions unit="cm">
+			<length>20</length>
+			<width>13</width>
+		</dimensions>
+		<pages>336</pages>
+		<covers>softback</covers>
+	</book>	
+</bookstore>

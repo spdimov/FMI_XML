@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<bookstore>
+    <book id="id_1">
+        <title lang="en">Harry potter and the philosopher's stone</title>
+        <price>30</price>
+        <release_date>
+            <year>1997</year>
+            <month>6</month>
+            <day>26</day>
+        </release_date>
+        <author nationality="British">J. K. Rowling</author>
+        <genre>Fantasy</genre>
+        <publisher country="UK">Bloomsbury</publisher>
+        <pages_number edition="UK">223</pages_number>
+        <formats>
+            <format>PDF</format>
+        </formats>
+        <size>1487</size>
+        <review>Lorem ipsum dolor sit amet, consectetur adipiscing elit</review>
+        <rating>9</rating>
+        <minimum_age>7</minimum_age>
+    </book>
+    <book id="id_2">
+        <title lang="en">Star Wars: Light of the Jedi</title>
+        <price>25</price>
+        <release_date>
+            <year>2021</year>
+            <month>1</month>
+            <day>5</day>
+        </release_date>
+        <author nationality="American">Charles Soule</author>
+        <genre>Fantasy</genre>
+        <publisher country="">Del Rey</publisher>
+        <pages_number edition="UK">336</pages_number>
+        <formats>
+            <format>djvu</format>
+        </formats>
+        <size>2351</size>
+        <review>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+            deleniti atque.
+        </review>
+        <rating>9.5</rating>
+        <minimum_age>7</minimum_age>
+    </book>
+    <book id="id_3">
+        <title lang="en">Clean Code</title>
+        <price>31</price>
+        <release_date>
+            <year>2005</year>
+            <month>3</month>
+            <day>3</day>
+        </release_date>
+        <author nationality="UK">Robert C. Martin</author>
+        <genre>Computer Science</genre>
+        <publisher country="">Lorem Ipsum</publisher>
+        <pages_number edition="UK">700</pages_number>
+        <formats>
+            <format>djvu</format>
+        </formats>
+        <size>6504</size>
+        <review>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+            deleniti atque.
+        </review>
+        <rating>8.2</rating>
+        <minimum_age>14</minimum_age>
+    </book>
+</bookstore>

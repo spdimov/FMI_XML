@@ -1,0 +1,20 @@
+<!ELEMENT bookstore (book*)>
+<!ELEMENT book (id,title,author,year,genre,publisher,language,price,rating,dimensions,pages,covers)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT dimensions (length,width)>
+<!ELEMENT length (#PCDATA)>
+<!ELEMENT width (#PCDATA)>
+<!ELEMENT pages (#PCDATA)>
+<!ELEMENT covers (#PCDATA)>
+
+<!ATTLIST author nationality CDATA #IMPLIED>
+<!ATTLIST dimensions unit CDATA #REQUIRED>
+<!ATTLIST price currency CDATA #REQUIRED>

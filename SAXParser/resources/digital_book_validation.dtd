@@ -1,0 +1,24 @@
+<!ELEMENT bookstore (book*)>
+<!ELEMENT book (title+,price,release_date+,author+,genre*,publisher+,pages_number?,formats?,size?,review*,rating?,minimum_age?)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT release_date (year,month?,day?)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT pages_number (#PCDATA)>
+<!ELEMENT formats (format+)>
+<!ELEMENT format (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT review (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT minimum_age (#PCDATA)>
+
+<!ATTLIST book id ID #REQUIRED>
+<!ATTLIST title lang CDATA #IMPLIED>
+<!ATTLIST author nationality CDATA #IMPLIED>
+<!ATTLIST publisher country CDATA #IMPLIED>
+<!ATTLIST pages_number edition CDATA #REQUIRED>
